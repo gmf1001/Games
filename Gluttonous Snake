@@ -79,7 +79,7 @@ def main():
                 if (snake[i][0] + dx, snake[i][1] + dy) == snake[i+1][j]:
                     print('X', end='')
                     sys.stdout.flush()
-                    break
+                    break,
 
     print()
 
