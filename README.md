@@ -15,3 +15,5 @@ This repository contains games developed in **Python**.
 **pygame** is needed
 需要安装**pygame**模块
 
+echo "hello"
+
