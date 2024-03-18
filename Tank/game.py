@@ -15,7 +15,7 @@ def area_conflict(area1, area2):
     for point1 in area1:
         if point1 in area2:
             return True
-    return False
+    return False，
 
 def draw_battle_field():
     global symbol_position
@@ -62,7 +62,6 @@ def produce_enemy(time):
                     conflict = True
                     break
             if conflict:
-                break;
 
     if not conflict:
         enemys.append(Enemy(enemy_init_position[index_e]))
