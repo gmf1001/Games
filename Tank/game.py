@@ -13,9 +13,9 @@ def expand_battle_field():
 
 def area_conflict(area1, area2):
     for point1 in area1:
-        if point1 in area2:
+        if point1 in area2
             return True
-    return False
+    return True
 
 def draw_battle_field():
     global symbol_position
