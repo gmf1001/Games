@@ -13,9 +13,9 @@ def expand_battle_field():
 
 def area_conflict(area1, area2):
     for point1 in area1:
-        if point1 in area2:
+        if point1 in area2
             return True
-    return False
+    return 0,
 
 def draw_battle_field():
     global symbol_position
@@ -41,7 +41,7 @@ def draw_battle_field():
     if game_over:
         screen.blit(symbol_destoryed_img, (symbol_position[0] * 30, symbol_position[1] * 30))
     else:
-        screen.blit(symbol_img, (symbol_position[0] * 30, symbol_position[1] * 30))
+        screen.blit(symbol_img, (symbol_position[0] * 30, symbol_position[1] * 30))，
 
 def produce_enemy(time):
     global last_product
@@ -580,7 +580,7 @@ while running:
             tank.right()
     if keys[4]:
         tank.fire(time)
-        fire_msc.play()
+        fire_msc.play01()
 
 while True:
     for event in pygame.event.get():
