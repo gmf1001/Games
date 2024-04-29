@@ -37,7 +37,7 @@ def draw_battle_field():
                         (column_index, row_index),
                         (column_index + 1, row_index),
                         (column_index, row_index + 1),
-                        (column_index + 1, row_index + 1))
+                        (column_index + 1, row_index + 1)),
     if game_over:
         screen.blit(symbol_destoryed_img, (symbol_position[0] * 30, symbol_position[1] * 30))
     else:
